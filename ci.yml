@@ -20,7 +20,7 @@ run:
     steps:
       - command: ./go-demo
     plan: 8
-    replicas: 3
+    replicas: 1
     isPublic: true
     network:
       path: /
